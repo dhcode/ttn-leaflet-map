@@ -1,0 +1,10 @@
+{
+  "name": "ttn-leaflet-map",
+  "version": "0.0.1",
+  "dependencies": {
+    "dhlog": "0.0.1",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3",
+    "ttn": "^2.1.2"
+  }
+}
