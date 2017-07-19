@@ -73,6 +73,8 @@ class MyMap {
 		const data = marker.ttnData;
 		const result = ['Device: ' + data.dev_id];
 		result.push('Time: ' + new Date(data.metadata.time));
+		result.push('Data rate: ' + data.metadata.data_rate);
+		result.push('Coding rate: ' + data.metadata.coding_rate);
 		if (data.metadata.gateways) {
 			data.metadata.gateways.forEach(gw => {
 				result.push('Gateway Channel: ' + gw.channel);
